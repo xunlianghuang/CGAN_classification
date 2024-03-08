@@ -51,3 +51,12 @@ CGAN                            | Projection CGAN                 | ACGAN
 然后使用模型进行数据扩增
 
 之后选择是否扩增进行分类
+git init 
+git add * #这个是要上传全部的文件 
+修改name 和 email
+git commit -m "信息"
+git remote add origin https://github.com/xunlianghuang/CGAN_classification.git
+git push -u origin master
+git config --global http.proxy http://127.0.0.1:7890
+git config --global https.proxy http://127.0.0.1:7890
+git push -u origin master
