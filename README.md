@@ -43,3 +43,11 @@ CGAN                            | Projection CGAN                 | ACGAN
 - Others
     - If you want to use other datasets, just replace `FashionMNIST` by `MNIST` or `CIFAR10` in the codes.
     - There are arguments for configurations of GAN loss, gradient penalty, and etc, just try them.
+
+-----------------------------------------------------------------
+
+之后运行保存成图片文件
+
+然后使用模型进行数据扩增
+
+之后选择是否扩增进行分类
