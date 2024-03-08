@@ -1,1 +1,2 @@
 # CGAN_classification
+利用CGAN来扩增minist数据集，然后在minist数据集上进行分类观察那个分类效果好
